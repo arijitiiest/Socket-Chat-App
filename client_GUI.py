@@ -39,7 +39,7 @@ class GUI:
         self.roomLabelName = tk.Label(self.login, text="Room Id: ", font="Helvetica 12")
         self.roomLabelName.place(relheight=0.2, relx=0.1, rely=0.40)
 
-        self.roomEntryName = tk.Entry(self.login, font="Helvetica 11")
+        self.roomEntryName = tk.Entry(self.login, font="Helvetica 11", show="*")
         self.roomEntryName.place(relwidth=0.4 ,relheight=0.1, relx=0.35, rely=0.45)
         
         self.go = tk.Button(self.login, 
